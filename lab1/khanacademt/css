@@ -1,0 +1,865 @@
+!-- INTRO TO CSS
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Colorful creature</title>
+        <style>
+            body
+            {background: rgb(207, 124, 207)
+            }
+            p{
+                color:rgb(7, 12, 173);
+            }
+            h1{
+                color:rgb(123,124,125);
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+        
+        <h1>The coolest creature</h1>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/Winston.png">
+        <p>The <em>asc</em> is awesome because <strong>desc</strong>.</p>
+        
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Seasonal ids</title>
+        <style>
+            #winter{
+                background :rgb(29, 111, 235);
+            }
+            #summer{
+                background :rgb(226, 237, 19);
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Olaf's favorite seasons</h1>
+        
+        <h2 id="summer">Summer</h2>
+        <p>He's a happy snowman, doing what frozen things do in summer.</p>
+        
+        <h2 id="winter">Winter</h2>
+        <p>He likes to stay in and cuddle</p>
+    </body>
+</html>
+
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Challenge: Apples and bananas classes"</title>
+        <style>
+           strong{
+           } 
+           .apples{
+               color:rgb(252, 234, 252);
+           }
+           .bananas{
+               color:rgb(180, 217, 32);
+           }
+        </style>
+    </head>
+    <body>
+
+    <h1><strong class="apples">Apples</strong> and <strong class="bananas">Bananas</strong></h1>
+    
+    <p>
+    I like to eat eat eat 
+        <strong class="apples">apples</strong> and
+        <strong class="bananas">bananas</strong>.<br>
+    I like to eat eat eat 
+        <strong class="apples">apples</strong> and
+        <strong class="bananas">bananas</strong>.<br>
+    I like to ate ate ate 
+        <strong class="apples">ay-ples</strong> and
+        <strong class="bananas">bay-nay-nays</strong>.<br>
+    I like to ate ate ate 
+        <strong class="apples">ay-ples</strong> and
+        <strong class="bananas">bay-nay-nays</strong>.<br>
+    I like to eet eet eet
+        <strong class="apples">ee-ples</strong> and
+        <strong class="bananas">bee-nee-nees</strong>.<br>
+    I like to eet eet eet
+        <strong class="apples">ee-ples</strong> and
+        <strong class="bananas">bee-nee-nees</strong>.<br>
+    I like to ite ite ite
+        <strong class="apples">i-ples</strong> and
+        <strong class="bananas">by-by-nys</strong>.<br>
+    I like to ite ite ite
+        <strong class="apples">i-ples</strong> and
+        <strong class="bananas">by-by-nys</strong>.<br>
+    I like to ote ote ote
+        <strong class="apples">oh-ples</strong> and
+        <strong class="bananas">bo-no-nos</strong>.<br>
+    I like to ote ote ote
+        <strong class="apples">oh-ples</strong> and
+        <strong class="bananas">bo-no-nos</strong>.<br>
+    I like to ute ute ute
+        <strong class="apples">uupples</strong> and
+        <strong class="bananas">bununus</strong>.<br>
+    I like to ute ute ute
+        <strong class="apples">uupples</strong> and
+        <strong class="bananas">bununus</strong>.<br>
+    I like to eat eat eat 
+        <strong class="apples">apples</strong> and
+        <strong class="bananas">bananas</strong>.<br>
+</p>
+
+    </body>
+</html>
+
+
+
+!-- project
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project: Travel webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(44, 245, 215);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Travel to Antarctica</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#places">Places to Visit</a> |
+        <a href="#tips">Travel Tips</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Antarctica</h2>
+        <p>Antarctica is the southernmost continent and is known for its breathtaking landscapes, unique wildlife, and extreme conditions. Explore the beauty of the frozen continent!</p>
+    </section>
+
+    <section id="places">
+        <h2>Places to Visit</h2>
+        <p>Discover amazing places such as the Antarctic Peninsula, Ross Ice Shelf, and the South Pole. Each destination offers a unique experience and stunning scenery.</p>
+    </section>
+
+    <section id="tips">
+        <h2>Travel Tips</h2>
+        <ul>
+            <li>Bring warm clothing and layers.</li>
+            <li>Stay hydrated at high altitudes.</li>
+            <li>Respect the local wildlife and environment.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+
+
+
+!--Lesson 4: CSS text properties
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Fancy font families</title>
+        <style>
+        #flinstones {
+            font-family :fantasy;
+        }
+        
+        #jetsons {
+            font-family:monospace ;
+        }
+        
+        #addams {
+            font-family:serif;
+        }
+        body{
+            font-family:serif;
+        }
+        </style>
+    </head>
+    <body>
+    
+    
+    <p>Some fun theme songs of well known TV families...</p>
+    
+    <h4>The Flinstones</h4>
+    <p id="flinstones">
+    Meet the Flintstones<br>
+    They're the modern stone age family<br>
+    From the town of Bedrock<br>
+    They're a page right of history</p>
+    
+    <h4>The Jetsons</h4>
+    <p id="jetsons">
+    Meet George Jetson,<br>
+    His Boy Elroy,<br>
+    Daughter Judy,<br>
+    Jane, His wife
+    </p>
+
+    <h4>The Addams Family</h4>
+    <p id="addams">
+    They're creepy and they're kooky,<br>
+    mysterious and spooky<br>
+    They're all together ooky,<br>
+    the Addams Family 
+    </p>
+    </body>
+</html>
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Great big font sizes</title>
+        <style>
+            .big {
+                font-size:1.65em;
+            }
+            
+            .bigger { 
+                font-size:3.65em;
+            }
+        </style>
+    </head>
+    <body>
+
+<h1>Great Big Words</h1>
+<h2>by Michael Mark & Tom Chapin</h2>
+
+<p>When I was a little kid,
+a "<em class="big">diminutive juvenile</em>," <br>
+I liked my folks to read to me,
+I was an <em class="big">"eager bibliophile."</em> <br>
+Now I love words for how they sound <br>
+And how they <em class="big">"communicate."</em> <br>
+Perhaps I should explain myself,
+that is, <em class="big">"elucidate."</em> <br>
+Great big words, I like <em class="big">big</em> words. <br>
+Letter by letter, the <em class="bigger">bigger</em> the better <br>
+Great big words. La la la la la la la la la la!</p>
+
+    </body>
+</html>
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Famous font formats</title>
+        <style>
+            .declaration { 
+                font-weight:bold;
+            }
+            
+            .quote {
+                font-style :italic;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h2>Famous quotes</h2>
+    <p class="quote">
+    "My mama always said life was like a box of chocolates. You never know what you're gonna get.".
+    <br> - Forrest Gump
+    </p>
+    
+    <p class="quote">
+    "May the force be with you."
+    <br>- Star Wars
+    </p>
+    
+     <h2>Famous declarations</h2>
+     
+    <p class="declaration">
+    I'M BATMAN.
+    </p>
+    
+    <p class="declaration">
+    Earth, water, fire. Together, we are CAPTAIN PLANET!
+    </p>
+    
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Project: Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        h6 {
+            color: #666;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>John's Blog</h1>
+
+    <h3>Contents</h3>
+    <ul>
+        <li><a href="#first-post">First post</a></li>
+        <li><a href="#second-post">Second post</a></li>
+    </ul>
+
+    <h2 id="first-post">First post</h2>
+    <h6>Posted on January 1, 2023</h6>
+
+    <p>Something exciting happened in my life, and I wanted to share it with you all. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec varius orci. Quisque tincidunt, metus vitae euismod scelerisque, felis nisi laoreet libero, a ultrices nisl metus a justo.</p>
+
+    <h2 id="second-post">Second post</h2>
+    <h6>Posted on February 15, 2023</h6>
+
+    
+
+</body>
+</html>
+
+!--Lesson 6: CSS layout
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Group the groupers</title>
+        <style>
+            .first-sentence{
+             text-decoration:underline ;
+             font-weight:bold; 
+            }
+            .info{
+                background:rbk(123,123,123);
+            }
+        </style>
+    </head>
+    <body>
+    <div class="info">
+        <h1>Groupers</h1>
+        
+        <p><span class="first-sentence">Groupers are teleosts (ray-finned fishes), typically having a stout body and a large mouth. </span>They can be quite large, and lengths over a meter and weights up to 100 kg are not uncommon, though obviously in such a large group, species vary considerably. They swallow prey rather than biting pieces off it. They do not have many teeth on the edges of their jaws, but they have heavy crushing tooth plates inside the pharynx. They habitually eat fish, octopuses, and crustaceans. Reports of fatal attacks on humans by the largest species, the giant grouper (Epinephelus lanceolatus) are unconfirmed.</p>
+
+        <p><span class="first-sentence">Their mouths and gills form a powerful sucking system that sucks their prey in from a distance. They also use their mouths to dig into sand to form their shelters under big rocks, jetting it out through their gills.</span>Their gill muscles are so powerful, it is nearly impossible to pull them out of a cave if they feel attacked and extend those muscles to lock themselves in.</p>
+        </div>
+        <a href="http://en.wikipedia.org/wiki/Grouper">Read more on Wikipedia</a>
+
+    </body>
+</html>
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: The overflowing ocean</title>
+        <style>
+            .info {
+                background: rgb(219, 235, 255);
+                width:70%;
+                height:200px;
+                overflow:auto;
+            }
+            .pic{
+                width:70%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>The ocean</h1>
+        
+        <img class="pic" src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" alt="Photo of rocky ocean beach in Hawaii">
+        
+        <div class="info">
+            <p>The <strong>ocean</strong> is the connected body of salty water that covers 70.8% of the Earth's surface. The sea moderates the Earth's climate and has important roles in the water cycle, carbon cycle, and nitrogen cycle. Although the sea has been travelled and explored since prehistory, the modern scientific study of the sea—oceanography—dates broadly to the British Challenger expedition of the 1870s. The sea is conventionally divided into four or five large sections, such as the Pacific, called oceans while smaller sections, such as the Mediterranean, are known as seas.
+            </p>
+            <p>
+    Owing to the present state of continental drift, the Northern Hemisphere is now fairly equally divided between land and sea (a ratio of about 2:3) but the South is overwhelmingly oceanic (1:4.7). Salinity in the open ocean is generally in a narrow band around 3.5% by mass, although this can vary in more landlocked waters, near the mouths of large rivers, or at great depths. About 85% of the solids in the open sea are sodium and chloride. Deep-sea currents are produced by differences in salinity and temperature. Surface currents are formed by the friction of waves produced by the wind and by tides, the changes in local sea level produced by the gravity of the Moon and Sun. The direction of all of these is governed by surface and submarine land masses and by the rotation of the Earth (the Coriolis effect).
+            </p>
+            
+            <a href="http://en.wikipedia.org/wiki/Sea">Read more on Wikipedia</a>
+        </div>
+        
+    </body>
+</html>
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: The boxer model</title>
+        <style>
+            body {
+                font-family: cursive;
+            }
+            .photo-gallery {
+                background: rgb(255, 254, 217);
+                padding:200px;
+            }
+            .photo {
+                width: 200px;
+                border:5px dashed red;
+                margin: 2px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Boxers are beautiful?</h1>
+        
+        <div class="photo-gallery">
+        
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-laying-down.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-wagging-tongue.png">
+            
+        </div>
+        
+    </body>
+</html>
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Position planet</title>
+        <style>
+            #greeting {
+                background: rgb(255, 255, 0);
+                border: 2px solid black;
+                font-family: "Comic Sans MS", fantasy;
+                padding: 5px;
+                width: 262px;
+                position:absolute;
+                top:10px;
+                left :150px;
+                z-index:2;
+                
+            }
+            
+            #creature {
+                position :absolute;
+                top:50px;
+                left:70px;
+                z-index:1;
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" width="300">
+        
+        <div id="greeting">
+            <p>Hello! Welcome to position planet!</p>
+        </div>
+        
+        <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
+        
+
+    </body>
+</html>
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Floating clouds</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            h1 {
+                font-family: fantasy;
+                 
+            }
+            #cloud-pic {
+                width: 100px;
+                float:left;
+                margin:10px;
+            }
+            #cloud-sidebar {
+                float:right;
+                background: rgb(255, 255, 219);
+                padding:10px;
+                margin-left:10px;
+                clear:both;
+                width:30%;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>What are clouds?</h1>
+        <img id="cloud-pic" src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png">
+        
+
+        
+        <div id="cloud-sidebar">
+        
+            <h5>Why are some clouds yellow?</h5>
+            <p>Yellowish clouds may occur in the late spring through early fall months during forest fire season. The yellow color is due to the presence of pollutants in the smoke. Yellowish clouds caused by the presence of nitrogen dioxide are sometimes seen in urban areas with high air pollution levels.
+            </p>
+        </div>
+        
+        <p>In meteorology, a cloud is a visible mass of liquid droplets or frozen crystals made of water or various chemicals suspended in the atmosphere above the surface of a planetary body. These suspended particles are also known as aerosols and are studied in the cloud physics branch of meteorology.</p>
+
+        <p>Terrestrial cloud formation is the result of air in Earth's atmosphere becoming saturated due to either or both of two processes: cooling of the air and adding water vapor. With sufficient saturation, precipitation will fall to the surface.</p>
+        
+        
+        <p><a href="http://en.wikipedia.org/wiki/Cloud">Read more on Wikipedia</a></p>
+        
+    </body>
+</html>
+
+
+
+                project 
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Project: Event Invite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, p {
+            text-align: center;
+            color: #333;
+        }
+
+        h1 {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .invite-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invite-container">
+        <h1>You're Invited!</h1>
+        <h2>To Something Special</h2>
+        
+        <p>Event Details:</p>
+        <ul>
+            <li><strong>Date:</strong> January 1, 2023</li>
+            <li><strong>Time:</strong> 7:00 PM</li>
+            <li><strong>Location:</strong> Your Venue Name, City</li>
+        </ul>
+
+        <p>We are waiting for you.</p>
+    </div>
+
+</body>
+</html>
+
+
+!--More CSS selectors
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: A classy gallery</title>
+        <style>
+            body {
+                font-family: cursive;
+            }
+            
+            .image-small {
+                width: 150px;
+            }
+            .image-medium {
+                width: 200px;
+            }
+            .black-frame {
+                border: 8px double rgb(38, 38, 38);
+            }
+            .gold-frame {
+                border: 10px ridge rgb(255, 183, 0);
+            }
+            .silver-frame {
+                border: 10px groove rgb(204, 204, 204);
+            }
+        </style>
+    </head>
+    <body >
+        
+        <h1 >A classy gallery</h1>
+        
+        <img class ="image-small silver-frame" src="https://www.kasandbox.org/programming-images/animals/cat.png">
+        
+        <img  class="image-medium  gold-frame" src="https://www.kasandbox.org/programming-images/animals/fox.png">
+        
+        <img class ="image-medium black-frame" src="https://www.kasandbox.org/programming-images/animals/penguins.png">
+
+
+    </body>
+</html>
+a<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Classes of elements</title>
+        <style>
+            h2.metal {
+                background-color:red;
+             
+                color: white;
+                
+            }
+            h2.non-metal {
+                background-color:blue;
+            
+                color: white;
+            }
+            h2.semi-metal {
+                background-color:purple;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>The Periodic Table</h1>
+
+        <p>
+            There are three broad classes of elements:
+            <strong class="metal">metals</strong>,
+            <strong class="non-metal">non-metals</strong>,
+            and <strong class="semi-metal">semi-metals</strong>.
+        </p>
+        
+        <h2 class="metal">Metals</h2>
+        
+        <ul>
+            <li>Solid</li>
+            <li>Good conductors of electricity</li>
+            <li>Ductile</li>
+            <li>Malleable</li>
+        </ul>
+        
+        <h2 class="non-metal">Non-metals</h2>
+        
+        <ul>
+            <li>Brittle</li>
+            <li>Poor conductors</li>
+        </ul>
+        
+        <h2 class="semi-metal">Semi-metals (Metalloids)</h2>
+        
+        <ul>
+            <li>Partially conduct electricity</li>
+        </ul>
+        
+    </body>
+</html>
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Descendants of Khan</title>
+        <style>
+            .emperor {
+                font-family: cursive;
+            }
+            
+            .reign {
+                font-family: monospace;
+            }
+            table .emperor{
+                background-color:red;
+            }
+            table .reign{
+                background-color:brown;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h1>Descendants of Khan</h1>
+    
+    <p><strong class="emperor">Genghis Khan</strong> (<span class="reign">1206-1227</span>) was a emperor who had many sons and daughters, and many famous emperors are descended from him. (But not Sal Khan!)</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Reign</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="emperor">Ögedei Khan</td>
+                <td class="reign">1229-1241</td>
+            </tr>
+            <tr>
+                <td class="emperor">Kublai Khan</td>
+                <td class="reign">1260-1294</td>
+            </tr>
+            <tr>
+                <td class="emperor">Temür Khan</td>
+                <td class="reign">1294-1307</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </body>
+</html>
+
+                <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Grouped animals</title>
+        <style>
+            p {
+                font-family: sans-serif;
+            }
+            
+            img {
+                max-width: 150px;
+            }
+            
+            h1,h2 {
+                font-family: fantasy;
+                border-bottom: 1px solid rgb(255, 10, 255);
+                padding: 3px;
+            }
+            
+            h1:hover,h2:hover {
+                background-color: rgb(231, 247, 113);
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Animal group names</h1>
+        
+        <p>For many species of animals, there are names that we use to refer to a group of them - like a flock of birds. Here are a few you might not know.</p>
+        
+        <h2>A skulk of foxes</h2>
+
+        <p>Also called a "leash."</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+        
+        <h2>A clowder of cats</h2>
+        
+        <p>Also called a "pounce", "glaring", "kindle", or "clutter."</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+        
+        <p>
+        <a href="http://en.wikipedia.org/wiki/List_of_animal_names">Learn more on Wikipedia</a>
+        </p>
+    </body>
+</html>
+                
